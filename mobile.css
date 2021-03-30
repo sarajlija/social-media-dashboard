@@ -1,0 +1,56 @@
+/*MOBILE*/
+@media screen and (max-width: 800px) {
+    body {
+        height: 100%;
+        background: linear-gradient( to top,
+            #ffffff 0%,
+            #ffffff 91%,
+            hsl(225, 100%, 98%) 0%,
+            hsl(225, 100%, 98%) 100% );
+        background-repeat: no-repeat;
+    }
+  .toogle__switch {
+      position: relative;
+    position: none;
+    margin: 1.4rem 2rem;
+         
+    }
+
+    .toggle__sw {
+        top: 1.6rem;
+        position: absolute;
+        right: 0px;
+    }
+
+    .dark__mode {
+
+    left: 0rem;
+    top: 2rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: hsl(229, 9%, 51%);
+    
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 ;
+    }
+    .section__one {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    .section__two {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    .total__folowers {
+       margin-left: 1.9rem;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: hsl(229, 9%, 51%);
+    font-weight: 700;
+    }
+}
